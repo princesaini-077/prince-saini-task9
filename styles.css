@@ -1,0 +1,119 @@
+* {
+margin: 0;
+padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+ font-family: 'Poppins', sans-serif;
+ overflow-x: hidden; /* just in case */
+}
+
+.main-container{
+width: 100%;
+ max-width: 1200px;
+    margin: auto;
+}
+
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+    height: 10vh;
+    min-height: 70px;
+border-bottom: 2px solid #f1f1f1;
+    padding: 0 4%;
+}
+
+.logo {
+    font-size: 2vw;
+    font-weight: 800;
+    
+}
+
+
+
+.nav-links{
+    display: flex;
+}
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    
+}
+
+.User-Name{
+background-color: #d4f5f7;
+color: #0ab0bf;
+padding: 10px 20px;
+border-radius: 5px;
+font-weight: 600;
+display: inline;
+
+
+}
+
+/* HERO */
+.hero-section {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 50px 4%;
+margin-top: 20px;
+/* background: red;  was using to test */ 
+}
+
+.hero-left {
+    width: 50%;
+}
+
+.hero-left h1 {
+    font-size: 3.2vw;
+    color: #111;
+    line-height: 1.3;
+}
+
+.hero-left h1 span {
+    color: #0ab0bf;
+}
+
+.hero-left p {
+    margin-top: 20px;
+    color: #666;
+    width: 85%;
+    font-size: 1.1vw;
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 15px 30px;
+    display: flex;
+    background-color: #0ab0bf;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    
+    transition: 0.6s;
+}
+.btn:hover{
+    background-color: #078e9a;
+    
+    transform: rotate(10deg) ;
+}
+
+.hero-right {
+width: 50%;
+display: flex;
+justify-content: flex-end;
+}
+
+#hero-img {
+width: 90%;
+border-radius: 20px;
+}
+
+
+
+
